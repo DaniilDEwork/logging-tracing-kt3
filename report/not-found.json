@@ -1,0 +1,28 @@
+{
+  "Timestamp": "2026-10-12T23:28:35.8500004+03:00",
+  "Level": "Error",
+  "MessageTemplate": "Задача \"{TaskTitle:l}\" не найдена для удаления. Результат: {Result:l}. Всего задач: {TaskCount}",
+  "RenderedMessage": "Задача \"xyz\" не найдена для удаления. Результат: NotFound. Всего задач: 1",
+  "Properties": {
+    "TaskTitle": "xyz",
+    "Result": "NotFound",
+    "TaskCount": 1,
+    "Operation": "RemoveTask",
+    "Application": "TaskManager",
+    "SessionId": "f7089fed-f884-407c-aea8-df28c4f0daad"
+  },
+  "Renderings": {
+    "TaskTitle": [
+      {
+        "Format": "l",
+        "Rendering": "xyz"
+      }
+    ],
+    "Result": [
+      {
+        "Format": "l",
+        "Rendering": "NotFound"
+      }
+    ]
+  }
+}
